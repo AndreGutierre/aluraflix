@@ -545,7 +545,7 @@ Error generating stack: `+l.message+`
 
    
     
-`,Vv=()=>w.jsxs(Bv,{children:[w.jsxs("section",{children:[w.jsx(Rl,{to:"/",children:w.jsx("img",{src:Uv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"})]}),w.jsxs("nav",{children:[w.jsx(vi,{url:"./",children:"Home"}),w.jsx(vi,{url:"./favoritos",children:"Favoritos"}),w.jsx(vi,{url:"./agregarvideo",children:"Agregar"})]})]}),Wv="/aluraflix/assets/LogoMain-CpkNIw1K.png",Qv=T.footer`
+`,Vv=()=>w.jsxs(Bv,{children:[w.jsxs("section",{children:[w.jsx(Rl,{to:"/aluraflix/",children:w.jsx("img",{src:Uv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"})]}),w.jsxs("nav",{children:[w.jsx(vi,{url:"./",children:"Home"}),w.jsx(vi,{url:"./favoritos",children:"Favoritos"}),w.jsx(vi,{url:"./agregarvideo",children:"Agregar"})]})]}),Wv="/aluraflix/assets/LogoMain-CpkNIw1K.png",Qv=T.footer`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -568,7 +568,7 @@ Error generating stack: `+l.message+`
     
     }
 
-`,Hv=()=>w.jsx("div",{children:w.jsxs(Qv,{children:[w.jsx(Rl,{to:"/",children:w.jsx("img",{src:Wv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"}),w.jsx("h2",{children:"Diseñado por Felipe Valenzuela 2024"}),w.jsx("h2",{children:"contacto@Lhasa.cl"})]})});function Yv(){return w.jsxs("main",{children:[w.jsx(Vv,{}),w.jsx(lv,{children:w.jsx(rv,{children:w.jsx(j0,{})})}),w.jsx(Hv,{})]})}const Kv=T.div`
+`,Hv=()=>w.jsx("div",{children:w.jsxs(Qv,{children:[w.jsx(Rl,{to:"/aluraflix/",children:w.jsx("img",{src:Wv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"}),w.jsx("h2",{children:"Diseñado por Felipe Valenzuela 2024"}),w.jsx("h2",{children:"contacto@Lhasa.cl"})]})});function Yv(){return w.jsxs("main",{children:[w.jsx(Vv,{}),w.jsx(lv,{children:w.jsx(rv,{children:w.jsx(j0,{})})}),w.jsx(Hv,{})]})}const Kv=T.div`
     display: flex;
     justify-content: center;
     width: 100%;
@@ -614,7 +614,7 @@ Error generating stack: `+l.message+`
     justify-content: space-evenly;
     width: 100%;
     margin-top: 1em;
-`,Jv=()=>{const[e,t]=S.useState(""),[n,r]=S.useState(""),[o,l]=S.useState(""),[i,u]=S.useState(""),[s,a]=S.useState(""),h=S.useRef(null),{agregarVideo:f}=Zn(),m=v=>{v.preventDefault(),f({titulo:e,portada:o,link:i,descripcion:s,categoria:n})},g=v=>{v.preventDefault(),t(""),r(""),l(""),u(""),a("")};return w.jsx(Kv,{children:w.jsx(Gv,{children:w.jsxs(Xv,{onSubmit:m,ref:h,children:[w.jsx("h1",{children:"Nuevo Video"}),w.jsx("h2",{children:"Complete el formulario para crear una nueva tarjeta de video"}),w.jsx(Pt,{name:"Título",placeholder:"¿Cual es el nombre del video?",required:!0,valor:e,actualizarValor:t}),w.jsx(op,{name:"Categoría",valor:n,actualizarValor:r}),w.jsx(Pt,{name:"Portada",placeholder:"Pega la Url de la imagen de portada",required:!0,valor:o,actualizarValor:l}),w.jsx(Pt,{name:"Video",placeholder:"Pega la Url del video",required:!0,valor:i,actualizarValor:u}),w.jsx(Pt,{name:"Descripción",placeholder:"¿De qué se trata este video?",required:!0,valor:s,actualizarValor:a}),w.jsxs(Zv,{children:[w.jsx(fl,{type:"submit",onClick:m,children:"Crear"}),w.jsx(fl,{type:"button",onClick:g,children:"Limpiar"})]})]})})})},qv=()=>w.jsx(Jv,{});function bv(){return w.jsx($0,{children:w.jsx(R0,{children:w.jsxs(Xt,{path:"/aluraflix/",element:w.jsx(Yv,{}),children:[w.jsx(Xt,{index:!0,element:w.jsx(jv,{})}),w.jsx(Xt,{path:"Favoritos",element:w.jsx(Lv,{})}),w.jsx(Xt,{path:":id",element:w.jsx(Dv,{})}),w.jsx(Xt,{path:"*",element:w.jsx(sp,{})}),w.jsx(Xt,{path:"agregarvideo",element:w.jsx(qv,{})})]})})})}const ey=Bg`
+`,Jv=()=>{const[e,t]=S.useState(""),[n,r]=S.useState(""),[o,l]=S.useState(""),[i,u]=S.useState(""),[s,a]=S.useState(""),h=S.useRef(null),{agregarVideo:f}=Zn(),m=v=>{v.preventDefault(),f({titulo:e,portada:o,link:i,descripcion:s,categoria:n})},g=v=>{v.preventDefault(),t(""),r(""),l(""),u(""),a("")};return w.jsx(Kv,{children:w.jsx(Gv,{children:w.jsxs(Xv,{onSubmit:m,ref:h,children:[w.jsx("h1",{children:"Nuevo Video"}),w.jsx("h2",{children:"Complete el formulario para crear una nueva tarjeta de video"}),w.jsx(Pt,{name:"Título",placeholder:"¿Cual es el nombre del video?",required:!0,valor:e,actualizarValor:t}),w.jsx(op,{name:"Categoría",valor:n,actualizarValor:r}),w.jsx(Pt,{name:"Portada",placeholder:"Pega la Url de la imagen de portada",required:!0,valor:o,actualizarValor:l}),w.jsx(Pt,{name:"Video",placeholder:"Pega la Url del video",required:!0,valor:i,actualizarValor:u}),w.jsx(Pt,{name:"Descripción",placeholder:"¿De qué se trata este video?",required:!0,valor:s,actualizarValor:a}),w.jsxs(Zv,{children:[w.jsx(fl,{type:"submit",onClick:m,children:"Crear"}),w.jsx(fl,{type:"button",onClick:g,children:"Limpiar"})]})]})})})},qv=()=>w.jsx(Jv,{});function bv(){return w.jsx($0,{children:w.jsx(R0,{children:w.jsxs(Xt,{path:"/aluraflix/*",element:w.jsx(Yv,{}),children:[w.jsx(Xt,{index:!0,element:w.jsx(jv,{})}),w.jsx(Xt,{path:"Favoritos",element:w.jsx(Lv,{})}),w.jsx(Xt,{path:":id",element:w.jsx(Dv,{})}),w.jsx(Xt,{path:"agregarvideo",element:w.jsx(qv,{})}),w.jsx(Xt,{path:"*",element:w.jsx(sp,{})})]})})})}const ey=Bg`
   :root {
     --font: 'Red Hat Display', sans-serif;
     --blanco: #ffffff;
