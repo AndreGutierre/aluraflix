@@ -97,12 +97,12 @@ Error generating stack: `+l.message+`
     width: 25px !important;
     height: 25px;
     color: var(--negro);
-`,Yg=({setBusqueda:e})=>w.jsxs(Wg,{children:[w.jsx(Qg,{type:"text",placeholder:"¿Qué estás buscando?",onChange:t=>e(t.target.value)}),w.jsx(Hg,{src:Vg,alt:"ícono de lupa"})]}),Kg=T.div`
+`,Yg=({setBusqueda:e})=>w.jsxs(Wg,{children:[w.jsx(Qg,{type:"text",placeholder:"¿Qué estás buscando?",onChange:t=>e(t.target.value)}),w.jsx(Hg,{src:Vg,alt:"ícono de lupa"})]}),Kg="/aluraflix/assets/ImgBanner-CJQggima.png",Gg=T.div`
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30%;
-`,Gg=T.div`
+`,Xg=T.div`
   position: relative;
   margin-top: 1.5em;
   width: 90vw;
@@ -126,7 +126,7 @@ Error generating stack: `+l.message+`
     z-index: 1;
     border-radius: 50px 50px 0 0 ;
   }
-`,Xg=T.button`
+`,Zg=T.button`
   position: absolute;
   left: 50px;
   top: 50px;
@@ -142,7 +142,7 @@ Error generating stack: `+l.message+`
   font-size: 20px;
   font-weight: lighter;
   cursor: pointer;
-`,Zg=T.h1`
+`,Jg=T.h1`
     position: absolute;
     left: 50px;
     top: 150px;
@@ -152,7 +152,7 @@ Error generating stack: `+l.message+`
     font-size: 26px;
     font-weight: 600;
 
-`,Jg=T.h3`
+`,qg=T.h3`
     position: absolute;
     left: 50px;
     top: 230px;
@@ -162,7 +162,7 @@ Error generating stack: `+l.message+`
     font-size: 14px;
     font-weight: 300;
 
-`,Ps=({imgUrl:e,boton:t,titulo:n,descripcion:r})=>w.jsx(Kg,{children:w.jsxs(Gg,{$backgroundImage:`../../../public/img/${e}`,children:[w.jsx(Xg,{children:t}),w.jsx(Zg,{children:n}),w.jsx(Jg,{children:r})]})}),qg="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBpZMBEYMwDEXDFCABCUhAwhyAg+GAOQAHzAE3BbspmATmoHOQNZAc2a4tFP5d4Jqmr22SArAQMbfWWzM4y/A4UzGFtSEUI4ElhtVYu6zElALLlLOT3fjEN8dCX4yZ/Hxk0hUcIr+C1Z6Yjud7wCUfGXhk5yqywLzcckzoS87ECg5IOCdrb3aksFPqdh8C3nlQw34V/H9Kb0mVok/J+RuZUYlTqvSASOHc6KRBO1O1SxsBa6W66Hgtueq3ZgOs+WloT1C1BapgpBxWdtbQFvzXNKFm/190xuUF9ZzjFJdnalZP5oDmCvpikwLEwRRU95i7mgegx2EKOuVwS+wXFKggy0Fk8mcAAAAASUVORK5CYII=",bg="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC/SURBVHgBrZOBDcIgEEVPJ+gIdYO6QUdwg3YDR+goHcER6ghuUDbADb73FQ3RSqHwkk8gvbxwBUQcABrNqLF4Yd269mpazSVU8y7sEGbQnFdqOrp2zj5LPnfNca/DIGWo6OIOrVuUwFAIKQhbNlIOQ+FNynFly61OJinD4TmqdEI+40fLu6iZsZ0ZC6+FT88iHfsj+5Km0od+KqU94nfaRx0V1tvnt5OkgP8HRVkjW1iQcl5LDp40X+ZJKyam9gFRaSyfcbZrCwAAAA5lWElmTU0AKgAAAAgAAAAAAAAA0lOTAAAAAElFTkSuQmCC",ev="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAdCAYAAABbjRdIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF1SURBVHgB7ZbvWYMwEMYvfRyAEeIGOoFlBDeACVyBbuAGphPUDawTFDdgBDaI7zVB05T8KRS/2Pd50iM5ej8gl0sEZUhr/QLzELnlUwihKCHhBJSBe3j8g9J6RmtHIUJ0PzCADhR/8rnq0B4FQAw50PIqj78A7vSyOp0GDCjH+UYzhP83Y7FW9If6xzDOVrQqtA4xXsT8ru4SoILMgmbboV8OC9T6pfWz7dG/h78Pxcv5jIW1kgMPb+CBhvuKWKAozD7lxhmSFrj2QKyN+9YXwyywgal9IJ2DmlSsrGy0Fb0OuLNA2TCrPZmC6oo/8ztlKgs2kgyDjtmqTTGfD9O/u4J0hrdTgKsEiAPt6DSla8xRRWaz7D3g9NS3QaQHUnwBy3NVekAZCxatILxu8LSchU9oW/T3nr/lqoJLPqN8cX8yzAZUMCriZ0BNGbrtZ1dRaM7WZ4eUyySjXq7kehlVIWCjr6tXN74YAUoyp+NoNchQ66+7bwpmtVQlRqcqAAAAAElFTkSuQmCC",tv="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAdCAYAAAC0T3x2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADpSURBVHgB7ZZRDcIwEIavBAFzwBwwCUMBOAAHkzAkgAKGAxwgYcEBKNgclL+kBNbcFmju4GVf8ueaPvTLbtekhgSw1iYoBdIaY/akgZMgtX1RkjSMREc2IJKReUHxgWxGsQQHlwOymmLpOZCT1X4SxSScrJKUuHWONKEsmh5Jwu1TLN9IpNs1Sv4o8aKfSHJ1CSPaqEgYUWO7t15G4kWZ5RGRmEC2Q5m/bV2QLd4BLY0EPFrnpgxlicj88C5HtL6aesmB9HDTTBMs1qTPyolupE9j8FkpFmckJR2uyOI5DClKRjrDcHL38A7UiuI3nZTCWQAAAABJRU5ErkJggg==",_s=S.createContext();_s.displayName="Favoritos";function nv({children:e}){const[t,n]=S.useState([]);return w.jsx(_s.Provider,{value:{favorite:t,setFavorite:n},children:e})}function tp(){const{favorite:e,setFavorite:t}=S.useContext(_s);function n(r){const o=e.some(i=>i.id===r.id);let l=[...e];return o?(l=e.filter(i=>i.id!==r.id),t(l)):(l.push(r),t(l))}return{favorite:e,addFavorite:n}}const np=S.createContext(),rv=({children:e})=>{const[t,n]=S.useState(!1),[r,o]=S.useState(null),l=()=>{n(i=>!i)};return w.jsx(np.Provider,{value:{showForm:t,toggleForm:l,selectedVideoId:r,setSelectedVideoId:o},children:e})},js=()=>{const e=S.useContext(np);if(!e)throw new Error("useShowForm debe ser usado dentro de un EditFormProvider");return e},rp=S.createContext(),ov=({children:e})=>{const[t,n]=S.useState([]);S.useEffect(()=>{fetch("https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos").then(i=>i.json()).then(i=>n(i))},[]);const r=async i=>{try{await fetch(`https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos/${i}`,{method:"DELETE"});const u=t.filter(s=>s.id!==i);n(u)}catch(u){console.error("Error al eliminar el video:",u)}},o=async i=>{try{const u=await fetch("https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(i)});if(!u.ok)throw new Error("Error al agregar el video");const s=await u.json();n(a=>[...a,s]),console.log("Video agregado exitosamente:",s)}catch(u){console.error("Error al agregar el video:",u)}},l=async(i,u)=>{try{const s=await fetch(`https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos/${i}`,{method:"PATCH",headers:{"Content-Type":"application/json"},body:JSON.stringify(u)});if(!s.ok)throw new Error("Error al editar el video");const a=await s.json();console.log("Video editado exitosamente:",a),n(h=>h.map(f=>f.id===i?a:f))}catch(s){console.error("Error al editar el video:",s)}};return w.jsx(rp.Provider,{value:{videos:t,setVideos:n,eliminarVideo:r,editarVideo:l,agregarVideo:o},children:e})},Zn=()=>S.useContext(rp),lv=T.div`
+`,Ps=({boton:e,titulo:t,descripcion:n})=>w.jsx(Gg,{children:w.jsxs(Xg,{$backgroundImage:Kg,children:[w.jsx(Zg,{children:e}),w.jsx(Jg,{children:t}),w.jsx(qg,{children:n})]})}),bg="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBpZMBEYMwDEXDFCABCUhAwhyAg+GAOQAHzAE3BbspmATmoHOQNZAc2a4tFP5d4Jqmr22SArAQMbfWWzM4y/A4UzGFtSEUI4ElhtVYu6zElALLlLOT3fjEN8dCX4yZ/Hxk0hUcIr+C1Z6Yjud7wCUfGXhk5yqywLzcckzoS87ECg5IOCdrb3aksFPqdh8C3nlQw34V/H9Kb0mVok/J+RuZUYlTqvSASOHc6KRBO1O1SxsBa6W66Hgtueq3ZgOs+WloT1C1BapgpBxWdtbQFvzXNKFm/190xuUF9ZzjFJdnalZP5oDmCvpikwLEwRRU95i7mgegx2EKOuVwS+wXFKggy0Fk8mcAAAAASUVORK5CYII=",ev="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC/SURBVHgBrZOBDcIgEEVPJ+gIdYO6QUdwg3YDR+goHcER6ghuUDbADb73FQ3RSqHwkk8gvbxwBUQcABrNqLF4Yd269mpazSVU8y7sEGbQnFdqOrp2zj5LPnfNca/DIGWo6OIOrVuUwFAIKQhbNlIOQ+FNynFly61OJinD4TmqdEI+40fLu6iZsZ0ZC6+FT88iHfsj+5Km0od+KqU94nfaRx0V1tvnt5OkgP8HRVkjW1iQcl5LDp40X+ZJKyam9gFRaSyfcbZrCwAAAA5lWElmTU0AKgAAAAgAAAAAAAAA0lOTAAAAAElFTkSuQmCC",tv="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAdCAYAAABbjRdIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF1SURBVHgB7ZbvWYMwEMYvfRyAEeIGOoFlBDeACVyBbuAGphPUDawTFDdgBDaI7zVB05T8KRS/2Pd50iM5ej8gl0sEZUhr/QLzELnlUwihKCHhBJSBe3j8g9J6RmtHIUJ0PzCADhR/8rnq0B4FQAw50PIqj78A7vSyOp0GDCjH+UYzhP83Y7FW9If6xzDOVrQqtA4xXsT8ru4SoILMgmbboV8OC9T6pfWz7dG/h78Pxcv5jIW1kgMPb+CBhvuKWKAozD7lxhmSFrj2QKyN+9YXwyywgal9IJ2DmlSsrGy0Fb0OuLNA2TCrPZmC6oo/8ztlKgs2kgyDjtmqTTGfD9O/u4J0hrdTgKsEiAPt6DSla8xRRWaz7D3g9NS3QaQHUnwBy3NVekAZCxatILxu8LSchU9oW/T3nr/lqoJLPqN8cX8yzAZUMCriZ0BNGbrtZ1dRaM7WZ4eUyySjXq7kehlVIWCjr6tXN74YAUoyp+NoNchQ66+7bwpmtVQlRqcqAAAAAElFTkSuQmCC",nv="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAdCAYAAAC0T3x2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADpSURBVHgB7ZZRDcIwEIavBAFzwBwwCUMBOAAHkzAkgAKGAxwgYcEBKNgclL+kBNbcFmju4GVf8ueaPvTLbtekhgSw1iYoBdIaY/akgZMgtX1RkjSMREc2IJKReUHxgWxGsQQHlwOymmLpOZCT1X4SxSScrJKUuHWONKEsmh5Jwu1TLN9IpNs1Sv4o8aKfSHJ1CSPaqEgYUWO7t15G4kWZ5RGRmEC2Q5m/bV2QLd4BLY0EPFrnpgxlicj88C5HtL6aesmB9HDTTBMs1qTPyolupE9j8FkpFmckJR2uyOI5DClKRjrDcHL38A7UiuI3nZTCWQAAAABJRU5ErkJggg==",_s=S.createContext();_s.displayName="Favoritos";function rv({children:e}){const[t,n]=S.useState([]);return w.jsx(_s.Provider,{value:{favorite:t,setFavorite:n},children:e})}function tp(){const{favorite:e,setFavorite:t}=S.useContext(_s);function n(r){const o=e.some(i=>i.id===r.id);let l=[...e];return o?(l=e.filter(i=>i.id!==r.id),t(l)):(l.push(r),t(l))}return{favorite:e,addFavorite:n}}const np=S.createContext(),ov=({children:e})=>{const[t,n]=S.useState(!1),[r,o]=S.useState(null),l=()=>{n(i=>!i)};return w.jsx(np.Provider,{value:{showForm:t,toggleForm:l,selectedVideoId:r,setSelectedVideoId:o},children:e})},js=()=>{const e=S.useContext(np);if(!e)throw new Error("useShowForm debe ser usado dentro de un EditFormProvider");return e},rp=S.createContext(),lv=({children:e})=>{const[t,n]=S.useState([]);S.useEffect(()=>{fetch("https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos").then(i=>i.json()).then(i=>n(i))},[]);const r=async i=>{try{await fetch(`https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos/${i}`,{method:"DELETE"});const u=t.filter(s=>s.id!==i);n(u)}catch(u){console.error("Error al eliminar el video:",u)}},o=async i=>{try{const u=await fetch("https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(i)});if(!u.ok)throw new Error("Error al agregar el video");const s=await u.json();n(a=>[...a,s]),console.log("Video agregado exitosamente:",s)}catch(u){console.error("Error al agregar el video:",u)}},l=async(i,u)=>{try{const s=await fetch(`https://my-json-server.typicode.com/AndreGutierre/aluraflix-api/videos/${i}`,{method:"PATCH",headers:{"Content-Type":"application/json"},body:JSON.stringify(u)});if(!s.ok)throw new Error("Error al editar el video");const a=await s.json();console.log("Video editado exitosamente:",a),n(h=>h.map(f=>f.id===i?a:f))}catch(s){console.error("Error al editar el video:",s)}};return w.jsx(rp.Provider,{value:{videos:t,setVideos:n,eliminarVideo:r,editarVideo:l,agregarVideo:o},children:e})},Zn=()=>S.useContext(rp),iv=T.div`
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -177,7 +177,7 @@ Error generating stack: `+l.message+`
    
 
    
-`,iv=T.input`
+`,uv=T.input`
     background-color: #ffffff;
     border-radius: 5px;
     border: none;
@@ -189,7 +189,7 @@ Error generating stack: `+l.message+`
     box-sizing: border-box;
 
    
-`,Pt=({name:e,placeholder:t,required:n,valor:r,actualizarValor:o})=>w.jsxs(lv,{children:[w.jsx("label",{children:e}),w.jsx(iv,{type:"text",placeholder:t,required:n,value:r,onChange:l=>o(l.target.value)})]}),uv=T.div`
+`,Pt=({name:e,placeholder:t,required:n,valor:r,actualizarValor:o})=>w.jsxs(iv,{children:[w.jsx("label",{children:e}),w.jsx(uv,{type:"text",placeholder:t,required:n,value:r,onChange:l=>o(l.target.value)})]}),sv=T.div`
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -202,7 +202,7 @@ Error generating stack: `+l.message+`
         color: #ffffff;
         padding : 5px 0;
     }
-`,sv=T.select`
+`,av=T.select`
     background-color: #ffffff;
     border-radius: 5px;
     border: none;
@@ -214,7 +214,7 @@ Error generating stack: `+l.message+`
     box-sizing: border-box;
 
 
-`,op=({name:e,valor:t,actualizarValor:n})=>{const r=["Front End","Back End","Programación","Data Science","Devops","UX y Diseño","Móvil","Innovación y Gestión"];return w.jsx(w.Fragment,{children:w.jsxs(uv,{children:[w.jsx("label",{children:e}),w.jsxs(sv,{value:t,onChange:o=>n(o.target.value),children:[w.jsx("option",{value:"",disabled:!0,defaultValue:"",hidden:!0,children:"Seleccionar equipo"}),r.map((o,l)=>w.jsx("option",{value:o,children:o},l))]})]})})},av=T.button`
+`,op=({name:e,valor:t,actualizarValor:n})=>{const r=["Front End","Back End","Programación","Data Science","Devops","UX y Diseño","Móvil","Innovación y Gestión"];return w.jsx(w.Fragment,{children:w.jsxs(sv,{children:[w.jsx("label",{children:e}),w.jsxs(av,{value:t,onChange:o=>n(o.target.value),children:[w.jsx("option",{value:"",disabled:!0,defaultValue:"",hidden:!0,children:"Seleccionar equipo"}),r.map((o,l)=>w.jsx("option",{value:o,children:o},l))]})]})})},cv=T.button`
 
     margin-top: 2em;
   width: 100px;
@@ -240,7 +240,7 @@ Error generating stack: `+l.message+`
 }
 
 
-`,fl=({type:e="submit",children:t,onClick:n})=>w.jsx(av,{type:e,onClick:n,children:t}),cv="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACcSURBVHgBndSBDYAgDATAxgkcwRHcSDbRjR3hrRERiEC/n5AQsBeMFZEYAIs4o7VzvbDhySZktGbXcepY08lQxoxG7M2ZTqqTg0Ur7E6oHzCjQ4xBzZgFpbEe6sY6qB8boKFXM41M45rpdHvnlbk/6u8DwNH8TSzb41AYWsOMguizIQpH0zZRnaws1kCL6yuwWIV+F2y2sYgzee0F5fhPLgt/VsUAAAAOZVhJZk1NACoAAAAIAAAAAAAAANJTkwAAAABJRU5ErkJggg==",fv=T.div`
+`,fl=({type:e="submit",children:t,onClick:n})=>w.jsx(cv,{type:e,onClick:n,children:t}),fv="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACcSURBVHgBndSBDYAgDATAxgkcwRHcSDbRjR3hrRERiEC/n5AQsBeMFZEYAIs4o7VzvbDhySZktGbXcepY08lQxoxG7M2ZTqqTg0Ur7E6oHzCjQ4xBzZgFpbEe6sY6qB8boKFXM41M45rpdHvnlbk/6u8DwNH8TSzb41AYWsOMguizIQpH0zZRnaws1kCL6yuwWIV+F2y2sYgzee0F5fhPLgt/VsUAAAAOZVhJZk1NACoAAAAIAAAAAAAAANJTkwAAAABJRU5ErkJggg==",dv=T.div`
     position: fixed;
     top: 0;
     left: 0;
@@ -252,7 +252,7 @@ Error generating stack: `+l.message+`
     background-color: rgba(39, 39, 59, 0.7);
     z-index: 10;
     overflow-y: auto; // Permitir desplazamiento vertical
-`,dv=T.div`
+`,pv=T.div`
     position: relative;
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ Error generating stack: `+l.message+`
     max-width: 800px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
     overflow: auto; // Permitir desplazamiento interno
-`,pv=T.form`
+`,hv=T.form`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,13 +289,13 @@ Error generating stack: `+l.message+`
         align-self: flex-end;
         cursor: pointer;
     }
-`,hv=T.div`
+`,mv=T.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
     
-`,mv=()=>{const{showForm:e,toggleForm:t,selectedVideoId:n}=js(),{videos:r,editarVideo:o}=Zn(),l=n;if(!e||!l)return null;const i=r.find(y=>y.id===l),[u,s]=S.useState((i==null?void 0:i.titulo)||""),[a,h]=S.useState((i==null?void 0:i.categoria)||""),[f,m]=S.useState((i==null?void 0:i.portada)||""),[g,v]=S.useState((i==null?void 0:i.video)||""),[x,A]=S.useState((i==null?void 0:i.descripcion)||""),d=S.useRef(null);S.useEffect(()=>{s((i==null?void 0:i.titulo)||""),h((i==null?void 0:i.categoria)||""),m((i==null?void 0:i.portada)||""),v((i==null?void 0:i.link)||""),A((i==null?void 0:i.descripcion)||"")},[i]);const c=y=>{y.preventDefault(),o(n,{id:n,titulo:u,portada:f,link:g,descripcion:x,categoria:a}),t()},p=y=>{y.preventDefault(),s(""),h(""),m(""),v(""),A("")};return w.jsx(fv,{children:w.jsx(dv,{children:w.jsxs(pv,{onSubmit:c,ref:d,children:[w.jsx("img",{src:cv,alt:"Icono Cerrar",onClick:t}),w.jsx("h1",{children:"Editar la tarjeta"}),w.jsx("h2",{children:"Actualiza el contenido de tu video"}),w.jsx(Pt,{name:"Título",placeholder:"¿Cual es el nombre del video?",required:!0,valor:u,actualizarValor:s}),w.jsx(op,{name:"Categoría",valor:a,actualizarValor:h}),w.jsx(Pt,{name:"Portada",placeholder:"Pega la Url de la imagen de portada",required:!0,valor:f,actualizarValor:m}),w.jsx(Pt,{name:"Video",placeholder:"Pega la Url del video",required:!0,valor:g,actualizarValor:v}),w.jsx(Pt,{name:"Descripción",placeholder:"¿De qué se trata este video?",required:!0,valor:x,actualizarValor:A}),w.jsxs(hv,{children:[w.jsx(fl,{type:"submit",onClick:c,children:"Editar"}),w.jsx(fl,{type:"button",onClick:p,children:"Limpiar"})]})]})})})},lp=T.div`
+`,gv=()=>{const{showForm:e,toggleForm:t,selectedVideoId:n}=js(),{videos:r,editarVideo:o}=Zn(),l=n;if(!e||!l)return null;const i=r.find(y=>y.id===l),[u,s]=S.useState((i==null?void 0:i.titulo)||""),[a,h]=S.useState((i==null?void 0:i.categoria)||""),[f,m]=S.useState((i==null?void 0:i.portada)||""),[g,v]=S.useState((i==null?void 0:i.video)||""),[x,A]=S.useState((i==null?void 0:i.descripcion)||""),d=S.useRef(null);S.useEffect(()=>{s((i==null?void 0:i.titulo)||""),h((i==null?void 0:i.categoria)||""),m((i==null?void 0:i.portada)||""),v((i==null?void 0:i.link)||""),A((i==null?void 0:i.descripcion)||"")},[i]);const c=y=>{y.preventDefault(),o(n,{id:n,titulo:u,portada:f,link:g,descripcion:x,categoria:a}),t()},p=y=>{y.preventDefault(),s(""),h(""),m(""),v(""),A("")};return w.jsx(dv,{children:w.jsx(pv,{children:w.jsxs(hv,{onSubmit:c,ref:d,children:[w.jsx("img",{src:fv,alt:"Icono Cerrar",onClick:t}),w.jsx("h1",{children:"Editar la tarjeta"}),w.jsx("h2",{children:"Actualiza el contenido de tu video"}),w.jsx(Pt,{name:"Título",placeholder:"¿Cual es el nombre del video?",required:!0,valor:u,actualizarValor:s}),w.jsx(op,{name:"Categoría",valor:a,actualizarValor:h}),w.jsx(Pt,{name:"Portada",placeholder:"Pega la Url de la imagen de portada",required:!0,valor:f,actualizarValor:m}),w.jsx(Pt,{name:"Video",placeholder:"Pega la Url del video",required:!0,valor:g,actualizarValor:v}),w.jsx(Pt,{name:"Descripción",placeholder:"¿De qué se trata este video?",required:!0,valor:x,actualizarValor:A}),w.jsxs(mv,{children:[w.jsx(fl,{type:"submit",onClick:c,children:"Editar"}),w.jsx(fl,{type:"button",onClick:p,children:"Limpiar"})]})]})})})},lp=T.div`
   position: relative;
   width: 290px;
   height: 160px;
@@ -323,7 +323,7 @@ Error generating stack: `+l.message+`
     overflow: hidden;
 
   }
-`,gv=T.div`
+`,vv=T.div`
    
 
     display: flex;
@@ -361,7 +361,7 @@ Error generating stack: `+l.message+`
         background-color: rgba(0,0,0, 0.2);
     }
    
-`,ip=({id:e,portada:t,titulo:n,link:r,categoria:o})=>{const{favorite:l,addFavorite:i}=tp(),{toggleForm:u,setSelectedVideoId:s}=js(),{eliminarVideo:a}=Zn(),f=l.some(v=>v.id===e)?bg:qg,m=v=>{v.preventDefault(),v.stopPropagation()},g=v=>{v.preventDefault(),v.stopPropagation(),s(e),u()};return w.jsx(w.Fragment,{children:w.jsx(Rl,{to:`/${e}`,children:w.jsx(lp,{$backgroundImage:t,children:w.jsxs(gv,{onClick:m,children:[w.jsx("img",{src:tv,alt:"Icono Editar",onClick:g}),w.jsx("img",{src:ev,alt:"Icono Borrar",onClick:()=>a(e)}),w.jsx("img",{src:f,alt:"Icono Favorito",onClick:()=>i({id:e,portada:t,titulo:n})})]})})})})};var ie=[];for(var gi=0;gi<256;++gi)ie.push((gi+256).toString(16).slice(1));function vv(e,t=0){return(ie[e[t+0]]+ie[e[t+1]]+ie[e[t+2]]+ie[e[t+3]]+"-"+ie[e[t+4]]+ie[e[t+5]]+"-"+ie[e[t+6]]+ie[e[t+7]]+"-"+ie[e[t+8]]+ie[e[t+9]]+"-"+ie[e[t+10]]+ie[e[t+11]]+ie[e[t+12]]+ie[e[t+13]]+ie[e[t+14]]+ie[e[t+15]]).toLowerCase()}var yo,yv=new Uint8Array(16);function wv(){if(!yo&&(yo=typeof crypto<"u"&&crypto.getRandomValues&&crypto.getRandomValues.bind(crypto),!yo))throw new Error("crypto.getRandomValues() not supported. See https://github.com/uuidjs/uuid#getrandomvalues-not-supported");return yo(yv)}var xv=typeof crypto<"u"&&crypto.randomUUID&&crypto.randomUUID.bind(crypto);const oc={randomUUID:xv};function up(e,t,n){if(oc.randomUUID&&!t&&!e)return oc.randomUUID();e=e||{};var r=e.random||(e.rng||wv)();return r[6]=r[6]&15|64,r[8]=r[8]&63|128,vv(r)}const Sv=T.div`
+`,ip=({id:e,portada:t,titulo:n,link:r,categoria:o})=>{const{favorite:l,addFavorite:i}=tp(),{toggleForm:u,setSelectedVideoId:s}=js(),{eliminarVideo:a}=Zn(),f=l.some(v=>v.id===e)?ev:bg,m=v=>{v.preventDefault(),v.stopPropagation()},g=v=>{v.preventDefault(),v.stopPropagation(),s(e),u()};return w.jsx(w.Fragment,{children:w.jsx(Rl,{to:`/${e}`,children:w.jsx(lp,{$backgroundImage:t,children:w.jsxs(vv,{onClick:m,children:[w.jsx("img",{src:nv,alt:"Icono Editar",onClick:g}),w.jsx("img",{src:tv,alt:"Icono Borrar",onClick:()=>a(e)}),w.jsx("img",{src:f,alt:"Icono Favorito",onClick:()=>i({id:e,portada:t,titulo:n})})]})})})})};var ie=[];for(var gi=0;gi<256;++gi)ie.push((gi+256).toString(16).slice(1));function yv(e,t=0){return(ie[e[t+0]]+ie[e[t+1]]+ie[e[t+2]]+ie[e[t+3]]+"-"+ie[e[t+4]]+ie[e[t+5]]+"-"+ie[e[t+6]]+ie[e[t+7]]+"-"+ie[e[t+8]]+ie[e[t+9]]+"-"+ie[e[t+10]]+ie[e[t+11]]+ie[e[t+12]]+ie[e[t+13]]+ie[e[t+14]]+ie[e[t+15]]).toLowerCase()}var yo,wv=new Uint8Array(16);function xv(){if(!yo&&(yo=typeof crypto<"u"&&crypto.getRandomValues&&crypto.getRandomValues.bind(crypto),!yo))throw new Error("crypto.getRandomValues() not supported. See https://github.com/uuidjs/uuid#getrandomvalues-not-supported");return yo(wv)}var Sv=typeof crypto<"u"&&crypto.randomUUID&&crypto.randomUUID.bind(crypto);const oc={randomUUID:Sv};function up(e,t,n){if(oc.randomUUID&&!t&&!e)return oc.randomUUID();e=e||{};var r=e.random||(e.rng||xv)();return r[6]=r[6]&15|64,r[8]=r[8]&63|128,yv(r)}const kv=T.div`
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -379,7 +379,7 @@ Error generating stack: `+l.message+`
     }
    
 
-`,kv=T.div`
+`,Cv=T.div`
     display: flex;
     width: 80vw;
     flex-direction: row;
@@ -391,7 +391,7 @@ Error generating stack: `+l.message+`
     gap: 1.5em;
     
    
-`,Cv=({categoria:e})=>{const{videos:t}=Zn(),n=t.filter(r=>r.categoria===e);return w.jsxs(Sv,{children:[w.jsx("h1",{children:e}),w.jsx(kv,{children:n.map(r=>S.createElement(ip,{...r,key:r.id,videoId:up()}))})]})},Ev=T.div`
+`,Ev=({categoria:e})=>{const{videos:t}=Zn(),n=t.filter(r=>r.categoria===e);return w.jsxs(kv,{children:[w.jsx("h1",{children:e}),w.jsx(Cv,{children:n.map(r=>S.createElement(ip,{...r,key:r.id,videoId:up()}))})]})},Av=T.div`
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -399,7 +399,7 @@ Error generating stack: `+l.message+`
     justify-content: center;
     align-items: center;
 
-`,Av=T.div`
+`,Pv=T.div`
     display: flex;
     width: 90vw;
     flex-direction: row;
@@ -420,14 +420,14 @@ Error generating stack: `+l.message+`
       font-size: 24px;
       margin: 2em;
     }
-`,Pv=({busqueda:e})=>{const{videos:t}=Zn(),n=e?t.filter(o=>o.titulo.toLowerCase().includes(e.toLowerCase())):t,r=[...new Set(n.map(o=>o.categoria))];return w.jsx(Ev,{children:w.jsx(Av,{children:n.length===0?w.jsxs("h2",{children:["No se encontraron videos para la búsqueda `",e,"`"]}):r.map(o=>w.jsx(Cv,{categoria:o,busqueda:e},up()))})})};function _v(){const{showForm:e}=js(),[t,n]=S.useState("");return w.jsxs(w.Fragment,{children:[w.jsx(Yg,{setBusqueda:n}),w.jsx(Ps,{imgUrl:"ImgBanner.png",boton:"Front End",titulo:"Challenge React",descripcion:"En este Challenge aplcarás todos los conocimientos de React que haz adquirido ."}),w.jsx(Pv,{busqueda:t}),e&&w.jsx(mv,{})]})}const jv=T.div`
+`,_v=({busqueda:e})=>{const{videos:t}=Zn(),n=e?t.filter(o=>o.titulo.toLowerCase().includes(e.toLowerCase())):t,r=[...new Set(n.map(o=>o.categoria))];return w.jsx(Av,{children:w.jsx(Pv,{children:n.length===0?w.jsxs("h2",{children:["No se encontraron videos para la búsqueda `",e,"`"]}):r.map(o=>w.jsx(Ev,{categoria:o,busqueda:e},up()))})})};function jv(){const{showForm:e}=js(),[t,n]=S.useState("");return w.jsxs(w.Fragment,{children:[w.jsx(Yg,{setBusqueda:n}),w.jsx(Ps,{imgUrl:"ImgBanner.png",boton:"Front End",titulo:"Challenge React",descripcion:"En este Challenge aplcarás todos los conocimientos de React que haz adquirido ."}),w.jsx(_v,{busqueda:t}),e&&w.jsx(gv,{})]})}const Nv=T.div`
     position: relative;
     display: flex;
     justify-content: center;
     margin: 0 10%;
     
 
-`,Nv=T.div`
+`,Rv=T.div`
     display: flex;
     position: relative;
     flex-direction: row;
@@ -439,7 +439,7 @@ Error generating stack: `+l.message+`
     padding: 2em; 
     gap: 1.5em;
 
-`,Rv=()=>{const{favorite:e}=tp();return w.jsx(jv,{children:w.jsx(Nv,{children:e.map(t=>S.createElement(ip,{...t,key:t.id}))})})},zv=T.div`
+`,zv=()=>{const{favorite:e}=tp();return w.jsx(Nv,{children:w.jsx(Rv,{children:e.map(t=>S.createElement(ip,{...t,key:t.id}))})})},Iv=T.div`
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -447,7 +447,7 @@ Error generating stack: `+l.message+`
     justify-content: center;
     align-items: center;
 
-`,Iv=T.div`
+`,Tv=T.div`
     display: flex;
     width: 90vw;
     flex-direction: row;
@@ -460,7 +460,7 @@ Error generating stack: `+l.message+`
     background: linear-gradient(to bottom, #000000, #1708ecb3); /* De fucsia (#ff00ff) a violeta oscuro (#8a2be2) */
     border-radius: 0 0 50px 50px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
-`,Tv=()=>w.jsxs(w.Fragment,{children:[w.jsx(Ps,{imgUrl:"ImgBanner.png",boton:"Me Gustan",titulo:"Todo lo que amo",descripcion:"Una seccion reservada a todo aquello que haz seleccionado historicamente"}),w.jsx(zv,{children:w.jsx(Iv,{children:w.jsx(Rv,{})})})]}),Lv=T.section`
+`,Lv=()=>w.jsxs(w.Fragment,{children:[w.jsx(Ps,{imgUrl:"ImgBanner.png",boton:"Me Gustan",titulo:"Todo lo que amo",descripcion:"Una seccion reservada a todo aquello que haz seleccionado historicamente"}),w.jsx(Iv,{children:w.jsx(Tv,{children:w.jsx(zv,{})})})]}),Ov=T.section`
 
     display: flex;
     justify-content: center;
@@ -479,11 +479,11 @@ Error generating stack: `+l.message+`
         color: var(--negro);
     }
 
-`;function sp(){return w.jsxs(Lv,{children:[w.jsx("h2",{children:"404"}),w.jsx("p",{children:"No hay nada por acá"})]})}const Ov=T.section`
+`;function sp(){return w.jsxs(Ov,{children:[w.jsx("h2",{children:"404"}),w.jsx("p",{children:"No hay nada por acá"})]})}const Fv=T.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    `,Fv=T.iframe`
+    `,$v=T.iframe`
     height: 80vh;
     width: 90vw;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
@@ -499,7 +499,7 @@ Error generating stack: `+l.message+`
     }
     
     
-`;function $v(){const{videos:e}=Zn(),t=m0(),n=e.find(r=>r.id===Number(t.id));return n?w.jsxs(w.Fragment,{children:[w.jsx(Ps,{imgUrl:"ImgBanner.png",boton:"Haz Play",titulo:"Todo lo que veo",descripcion:"Una seccion reservada para la visualización de tus videos favoritos"}),w.jsx(Ov,{children:w.jsx(Fv,{width:"100%",height:"100%",src:n.link,title:n.titulo,frameBorder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",referrerPolicy:"strict-origin-when-cross-origin",allowFullScreen:!0})})]}):w.jsx(sp,{})}const Dv="/aluraflix/assets/LogoMain-CpkNIw1K.png",Uv=T(Rl)`
+`;function Dv(){const{videos:e}=Zn(),t=m0(),n=e.find(r=>r.id===Number(t.id));return n?w.jsxs(w.Fragment,{children:[w.jsx(Ps,{imgUrl:"ImgBanner.png",boton:"Haz Play",titulo:"Todo lo que veo",descripcion:"Una seccion reservada para la visualización de tus videos favoritos"}),w.jsx(Fv,{children:w.jsx($v,{width:"100%",height:"100%",src:n.link,title:n.titulo,frameBorder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",referrerPolicy:"strict-origin-when-cross-origin",allowFullScreen:!0})})]}):w.jsx(sp,{})}const Uv="/aluraflix/assets/LogoMain-CpkNIw1K.png",Mv=T(Rl)`
     text-decoration: none;
     color: var(--negro);
     font-size: 18px;
@@ -512,7 +512,7 @@ Error generating stack: `+l.message+`
         transition: all 0.5s ease;
         
     }
-`,vi=({url:e,children:t})=>w.jsx(Uv,{to:e,children:t}),Mv=T.header`
+`,vi=({url:e,children:t})=>w.jsx(Mv,{to:e,children:t}),Bv=T.header`
     //background-color: #262626;
     color: #FFF;
     display: flex;
@@ -545,7 +545,7 @@ Error generating stack: `+l.message+`
 
    
     
-`,Bv=()=>w.jsxs(Mv,{children:[w.jsxs("section",{children:[w.jsx(Rl,{to:"/",children:w.jsx("img",{src:Dv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"})]}),w.jsxs("nav",{children:[w.jsx(vi,{url:"./",children:"Home"}),w.jsx(vi,{url:"./favoritos",children:"Favoritos"}),w.jsx(vi,{url:"./agregarvideo",children:"Agregar"})]})]}),Vv="/aluraflix/assets/LogoMain-CpkNIw1K.png",Wv=T.footer`
+`,Vv=()=>w.jsxs(Bv,{children:[w.jsxs("section",{children:[w.jsx(Rl,{to:"/",children:w.jsx("img",{src:Uv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"})]}),w.jsxs("nav",{children:[w.jsx(vi,{url:"./",children:"Home"}),w.jsx(vi,{url:"./favoritos",children:"Favoritos"}),w.jsx(vi,{url:"./agregarvideo",children:"Agregar"})]})]}),Wv="/aluraflix/assets/LogoMain-CpkNIw1K.png",Qv=T.footer`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -568,11 +568,11 @@ Error generating stack: `+l.message+`
     
     }
 
-`,Qv=()=>w.jsx("div",{children:w.jsxs(Wv,{children:[w.jsx(Rl,{to:"/",children:w.jsx("img",{src:Vv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"}),w.jsx("h2",{children:"Diseñado por Felipe Valenzuela 2024"}),w.jsx("h2",{children:"contacto@Lhasa.cl"})]})});function Hv(){return w.jsxs("main",{children:[w.jsx(Bv,{}),w.jsx(ov,{children:w.jsx(nv,{children:w.jsx(j0,{})})}),w.jsx(Qv,{})]})}const Yv=T.div`
+`,Hv=()=>w.jsx("div",{children:w.jsxs(Qv,{children:[w.jsx(Rl,{to:"/",children:w.jsx("img",{src:Wv,alt:"Logo AluraFlix"})}),w.jsx("h1",{children:"La plataforma full stack más grande de Latam"}),w.jsx("h2",{children:"Diseñado por Felipe Valenzuela 2024"}),w.jsx("h2",{children:"contacto@Lhasa.cl"})]})});function Yv(){return w.jsxs("main",{children:[w.jsx(Vv,{}),w.jsx(lv,{children:w.jsx(rv,{children:w.jsx(j0,{})})}),w.jsx(Hv,{})]})}const Kv=T.div`
     display: flex;
     justify-content: center;
     width: 100%;
-`,Kv=T.div`
+`,Gv=T.div`
     
     display: flex;
     flex-direction: column;
@@ -588,7 +588,7 @@ Error generating stack: `+l.message+`
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
     overflow: auto; // Permitir desplazamiento interno
     
-`,Gv=T.form`
+`,Xv=T.form`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -608,13 +608,13 @@ Error generating stack: `+l.message+`
         color: #ffffff;
     }
     
-`,Xv=T.div`
+`,Zv=T.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 1em;
-`,Zv=()=>{const[e,t]=S.useState(""),[n,r]=S.useState(""),[o,l]=S.useState(""),[i,u]=S.useState(""),[s,a]=S.useState(""),h=S.useRef(null),{agregarVideo:f}=Zn(),m=v=>{v.preventDefault(),f({titulo:e,portada:o,link:i,descripcion:s,categoria:n})},g=v=>{v.preventDefault(),t(""),r(""),l(""),u(""),a("")};return w.jsx(Yv,{children:w.jsx(Kv,{children:w.jsxs(Gv,{onSubmit:m,ref:h,children:[w.jsx("h1",{children:"Nuevo Video"}),w.jsx("h2",{children:"Complete el formulario para crear una nueva tarjeta de video"}),w.jsx(Pt,{name:"Título",placeholder:"¿Cual es el nombre del video?",required:!0,valor:e,actualizarValor:t}),w.jsx(op,{name:"Categoría",valor:n,actualizarValor:r}),w.jsx(Pt,{name:"Portada",placeholder:"Pega la Url de la imagen de portada",required:!0,valor:o,actualizarValor:l}),w.jsx(Pt,{name:"Video",placeholder:"Pega la Url del video",required:!0,valor:i,actualizarValor:u}),w.jsx(Pt,{name:"Descripción",placeholder:"¿De qué se trata este video?",required:!0,valor:s,actualizarValor:a}),w.jsxs(Xv,{children:[w.jsx(fl,{type:"submit",onClick:m,children:"Crear"}),w.jsx(fl,{type:"button",onClick:g,children:"Limpiar"})]})]})})})},Jv=()=>w.jsx(Zv,{});function qv(){return w.jsx($0,{children:w.jsx(R0,{children:w.jsxs(Xt,{path:"/",element:w.jsx(Hv,{}),children:[w.jsx(Xt,{index:!0,element:w.jsx(_v,{})}),w.jsx(Xt,{path:"Favoritos",element:w.jsx(Tv,{})}),w.jsx(Xt,{path:":id",element:w.jsx($v,{})}),w.jsx(Xt,{path:"*",element:w.jsx(sp,{})}),w.jsx(Xt,{path:"agregarvideo",element:w.jsx(Jv,{})})]})})})}const bv=Bg`
+`,Jv=()=>{const[e,t]=S.useState(""),[n,r]=S.useState(""),[o,l]=S.useState(""),[i,u]=S.useState(""),[s,a]=S.useState(""),h=S.useRef(null),{agregarVideo:f}=Zn(),m=v=>{v.preventDefault(),f({titulo:e,portada:o,link:i,descripcion:s,categoria:n})},g=v=>{v.preventDefault(),t(""),r(""),l(""),u(""),a("")};return w.jsx(Kv,{children:w.jsx(Gv,{children:w.jsxs(Xv,{onSubmit:m,ref:h,children:[w.jsx("h1",{children:"Nuevo Video"}),w.jsx("h2",{children:"Complete el formulario para crear una nueva tarjeta de video"}),w.jsx(Pt,{name:"Título",placeholder:"¿Cual es el nombre del video?",required:!0,valor:e,actualizarValor:t}),w.jsx(op,{name:"Categoría",valor:n,actualizarValor:r}),w.jsx(Pt,{name:"Portada",placeholder:"Pega la Url de la imagen de portada",required:!0,valor:o,actualizarValor:l}),w.jsx(Pt,{name:"Video",placeholder:"Pega la Url del video",required:!0,valor:i,actualizarValor:u}),w.jsx(Pt,{name:"Descripción",placeholder:"¿De qué se trata este video?",required:!0,valor:s,actualizarValor:a}),w.jsxs(Zv,{children:[w.jsx(fl,{type:"submit",onClick:m,children:"Crear"}),w.jsx(fl,{type:"button",onClick:g,children:"Limpiar"})]})]})})})},qv=()=>w.jsx(Jv,{});function bv(){return w.jsx($0,{children:w.jsx(R0,{children:w.jsxs(Xt,{path:"/aluraflix/",element:w.jsx(Yv,{}),children:[w.jsx(Xt,{index:!0,element:w.jsx(jv,{})}),w.jsx(Xt,{path:"Favoritos",element:w.jsx(Lv,{})}),w.jsx(Xt,{path:":id",element:w.jsx(Dv,{})}),w.jsx(Xt,{path:"*",element:w.jsx(sp,{})}),w.jsx(Xt,{path:"agregarvideo",element:w.jsx(qv,{})})]})})})}const ey=Bg`
   :root {
     --font: 'Red Hat Display', sans-serif;
     --blanco: #ffffff;
@@ -634,4 +634,4 @@ Error generating stack: `+l.message+`
   }
 
   /* Otros estilos globales según tus necesidades */
-`;function ey(){return w.jsx(w.Fragment,{children:w.jsxs("div",{children:[w.jsx(bv,{}),w.jsx(qv,{})]})})}yi.createRoot(document.getElementById("root")).render(w.jsxs(rv,{children:[w.jsx(ey,{}),","]}));
+`;function ty(){return w.jsx(w.Fragment,{children:w.jsxs("div",{children:[w.jsx(ey,{}),w.jsx(bv,{})]})})}yi.createRoot(document.getElementById("root")).render(w.jsxs(ov,{children:[w.jsx(ty,{}),","]}));
